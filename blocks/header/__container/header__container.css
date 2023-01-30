@@ -1,0 +1,16 @@
+.header__container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-rows: min-content min-content min-content min-content 29%;
+  max-height: 100%;
+  grid-template-areas:
+   "header__logo header__navigation   header__btrade"
+   "header__title  header__title header__title "
+   "header__subtitle  header__subtitle header__subtitle "
+   "header__btget header__btget . "
+   ". header__scroll . ";
+  min-height: 700px;
+  max-width: 1170px;
+  margin: 0px auto;
+}

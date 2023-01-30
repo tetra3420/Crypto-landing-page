@@ -1,0 +1,6 @@
+.header__scroll{
+  grid-area: header__scroll;
+  justify-self: center;
+  align-self: flex-end;
+
+}

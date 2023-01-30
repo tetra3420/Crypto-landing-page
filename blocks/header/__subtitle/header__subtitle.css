@@ -1,0 +1,10 @@
+.header__subtitle{
+  grid-area: header__subtitle;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  max-width: 500px;
+  margin: 0;
+}

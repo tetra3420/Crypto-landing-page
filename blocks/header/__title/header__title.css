@@ -1,0 +1,10 @@
+.header__title{
+  grid-area: header__title;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  max-width: 665px;
+  margin: 80px auto 10px 0;
+}

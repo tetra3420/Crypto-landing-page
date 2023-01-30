@@ -1,0 +1,8 @@
+.market__container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
