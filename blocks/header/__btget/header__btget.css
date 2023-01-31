@@ -12,8 +12,8 @@
   border-radius: 50px;
   width: 191px;
   height: 47px;
-  transition: opacity 0.1s;
   margin: 32px auto auto 0 ;
+  transition: opacity 0.1s;
 }
 
 .header__btget:hover{

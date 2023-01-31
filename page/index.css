@@ -17,7 +17,16 @@
 @import url("../blocks/market/__title/market__title.css");
 @import url("../blocks/values/values.css");
 @import url("../blocks/values/__thead/values__thead.css");
+@import url("../blocks/values/__th/values__th.css");
 @import url("../blocks/values/__tbody/values__tbody.css");
 @import url("../blocks/values/__td/values__td.css");
 @import url("../blocks/values/__tr/values__tr.css");
+@import url("../blocks/values/__spa/values__spa.css");
+@import url("../blocks/values/__spa/_star/values__spa_star.css");
+@import url("../blocks/values/__sp/values__sp.css");
+@import url("../blocks/values/__td/_name/values__td_name.css");
+@import url("../blocks/values/__td/_vol/values__dt_vol.css");
+@import url("../blocks/values/__td/_red/values__td_red.css");
+@import url("../blocks/values/__td/_green/values__td_green.css");
+@import url("../blocks/values/__dotsbt/values__dotsbt.css");
 @import url("../blocks/footer/footer.css");

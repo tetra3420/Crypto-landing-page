@@ -1,0 +1,14 @@
+.values__dotsbt{
+  border: none;
+  background: url("../../../image/DOTS.svg") center transparent no-repeat;
+  width: 3px;
+  height: 13px;
+  margin-left: 15px;
+  transition: opacity 0.1s;
+}
+
+.values__dotsbt:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+

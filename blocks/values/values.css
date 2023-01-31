@@ -1,3 +1,6 @@
 .values{
-
- }
+  display: grid;
+  grid-template-columns: 65px repeat(2, minmax(min-content, 0.7fr)) repeat(2, minmax(min-content,0.7fr)) repeat(3, minmax(min-content, 1fr));
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,11 +1,10 @@
 .header{
-  display: flex;
-  flex-direction: column;
   align-self: center;
-  width: 100%;
   background-image: url('../../image/Header@2x.png');
   background-position: bottom;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
   min-height: 700px;
-
+  width: 100%;
 }
