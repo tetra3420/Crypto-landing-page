@@ -3,12 +3,16 @@
 @import url("../blocks/container/container.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__container/header__container.css");
+@import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__navigation/header__navigation.css");
 @import url("../blocks/header/__menu/header__menu.css");
 @import url("../blocks/header/__menu-items/header__menu-items.css");
 @import url("../blocks/header/__btrade/header__btrade.css");
 @import url("../blocks/header/__title/header__title.css");
 @import url("../blocks/header/__subtitle/header__subtitle.css");
+@import url("../blocks/header/__illustration/header__illustration.css");
+@import url("../blocks/header/__illustration/_romb/header__illustration_romb.css");
+@import url("../blocks/header/__burger/header__burger.css");
 @import url("../blocks/header/__btget/header__btget.css");
 @import url("../blocks/header/__scroll/header__scroll.css");
 @import url("../blocks/main/main.css");
@@ -29,4 +33,6 @@
 @import url("../blocks/values/__td/_red/values__td_red.css");
 @import url("../blocks/values/__td/_green/values__td_green.css");
 @import url("../blocks/values/__dotsbt/values__dotsbt.css");
+@import url("../blocks/dispnone/dispnone.css");
+@import url("../blocks/mobdispnone/mobdispnone.css");
 @import url("../blocks/footer/footer.css");

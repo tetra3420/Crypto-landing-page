@@ -1,3 +1,10 @@
 .header__logo{
   grid-area: header__logo;
+  max-width: 154px;
+}
+
+@media screen and (max-width: 1169px) {
+  .header__logo{
+    max-width: calc(124px + (100vw - 375px) / (1170 - 375) * (154 - 124));
+  }
 }

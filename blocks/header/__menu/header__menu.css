@@ -1,9 +1,15 @@
 .header__menu{
+  grid-area: header__navigation;
+  justify-self: center;
+  width: 100%;
+  max-height: 55px;
+  max-width: 520px;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
-  padding: 0;
+  padding: 9px 0 0 0;
   margin: 0;
   width: 100%;
 }

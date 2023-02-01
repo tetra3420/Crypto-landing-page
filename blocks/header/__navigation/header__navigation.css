@@ -1,10 +1,9 @@
 .header__navigation{
-  max-width: 512px;
-  width: 100%;
-  grid-area: header__navigation;
-  justify-self: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 55px;
+  display: contents;
+}
+
+@media screen and (max-width: 450px){
+  .header__navigation{
+    display: none;
+  }
 }

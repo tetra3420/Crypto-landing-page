@@ -6,5 +6,23 @@
   font-size: 60px;
   line-height: 90px;
   max-width: 665px;
-  margin: 80px auto 10px 0;
+  margin-top: 109px;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1169px) {
+  .header__title{
+    font-size: calc(24px + (100vw - 375px) / (1170 - 375) * (60 - 24));
+    line-height: calc(32px + (100vw - 375px) / (1170 - 375) * (90 - 32));
+    margin-top: calc(38.5px + (100vw - 375px) / (1170 - 375) * (109 - 38.5));
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .header__title{
+    text-align: center;
+    margin-bottom: 13px;
+  }
 }

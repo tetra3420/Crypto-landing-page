@@ -1,4 +1,4 @@
-/* *{outline: 1px solid green;} */
+*{outline: 1px solid green;}
 .wrapper{
   min-height: 100%;
   display: flex;
@@ -6,6 +6,7 @@
   box-sizing: border-box;
   background-color: #1B004E;
   color: #fff;
+  justify-items: center
 }
 
 

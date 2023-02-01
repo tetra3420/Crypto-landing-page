@@ -13,3 +13,8 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1169px) {
+  .header__menu-items{
+    font-size: calc(14px + (100vw - 375px) / (1170 - 375) * (17 - 14));
+  }
+}

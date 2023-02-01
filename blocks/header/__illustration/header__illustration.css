@@ -1,0 +1,11 @@
+.header__illustration{
+  position: absolute;
+  right: -130px;
+  top: 142px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__illustration{
+    display: none;
+  }
+}

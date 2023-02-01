@@ -1,10 +1,17 @@
 .header{
   align-self: center;
-  background-image: url('../../image/Header@2x.png');
+  /* background-image: url('../../image/Header@2x.png'); */
+  background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
   background-position: bottom;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  min-height: 700px;
   width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 450px){
+ .header{
+  background: none;
+ }
 }

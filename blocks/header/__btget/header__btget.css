@@ -12,7 +12,7 @@
   border-radius: 50px;
   width: 191px;
   height: 47px;
-  margin: 32px auto auto 0 ;
+  margin-top: 34px;
   transition: opacity 0.1s;
 }
 
@@ -20,3 +20,14 @@
   opacity: 80%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1169px) {
+  .header__btget{
+    width: calc(136px + (100vw - 375px) / (1170 - 375) * (191 - 136));
+    font-size: calc(14px + (100vw - 375px) / (1170 - 375) * (17 - 14));
+    height: calc(31px + (100vw - 375px) / (1170 - 375) * (47 - 31));
+    margin-top: calc(20px + (100vw - 375px) / (1170 - 375) * (34 - 20));
+  }
+}
+
+

@@ -2,5 +2,11 @@
   grid-area: header__scroll;
   justify-self: center;
   align-self: flex-end;
-
 }
+
+@media screen and (max-width: 767px){
+  .header__scroll{
+    display: none;
+  }
+}
+
