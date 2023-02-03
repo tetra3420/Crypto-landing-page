@@ -1,0 +1,18 @@
+.applc__logo-list{
+  grid-area: applc__logo-list;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  column-gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 79px;
+  max-width: 358px;
+}
+
+@media screen and (max-width: 1169px) {
+  .applc__logo-list{
+    column-gap: calc(20px + (100vw - 375px) / (1170 - 375) * (30 - 20));
+    margin-top: calc(29.5px + (100vw - 375px) / (1170 - 375) * (50 - 29.5));
+    margin-bottom: calc(0px + (100vw - 375px) / (1170 - 375) * (79 - 0));
+  }
+}

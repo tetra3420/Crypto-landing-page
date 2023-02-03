@@ -1,0 +1,28 @@
+.applc__container{
+  padding-top: 110px;
+  padding-bottom: 105px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr  min-content;
+  grid-template-rows: repeat(3 , min-content);
+  grid-template-areas:
+  "applc__title applc__image"
+  " applc__text applc__image"
+  "applc__logo-list  applc__image";
+  z-index: 2;
+}
+
+@media screen and (max-width: 1169px) {
+  .applc__container{
+    padding-top: calc(0px + (100vw - 375px) / (1170 - 375) * (110 - 0));
+    padding-bottom: calc(0px + (100vw - 375px) / (1170 - 375) * (105 - 0));
+  }
+}
+
+@media screen and (max-width: 767px){
+  .applc__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

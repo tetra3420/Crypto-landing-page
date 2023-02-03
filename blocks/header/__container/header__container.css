@@ -4,7 +4,7 @@
   grid-template-rows: min-content min-content min-content min-content 23%;
   max-height: 100%;
   grid-template-areas:
-   "header__logo header__navigation   header__btrade"
+   "header__logo header__navigation  header__btrade"
    "header__title  header__title ."
    "header__subtitle  header__subtitle ."
    "header__btget header__btget ."

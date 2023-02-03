@@ -1,0 +1,21 @@
+.features__elements{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 0 108px 0;
+  margin: 0;
+  width: 100%;
+}
+@media screen and (max-width: 1169px) {
+  .features__elements{
+    padding-bottom: calc(52px + (100vw - 375px) / (1170 - 375) * (108 - 52));
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .features__elements{
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 48px;
+  }
+}

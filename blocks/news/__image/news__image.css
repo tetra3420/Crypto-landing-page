@@ -1,0 +1,5 @@
+.news__image{
+  height: 207px;
+  overflow: hidden;
+  grid-area: news__image;
+}

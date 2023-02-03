@@ -1,0 +1,10 @@
+.applc__image{
+  grid-area: applc__image;
+  height: 485px;
+}
+
+@media screen and (max-width: 1169px) {
+  .applc__image{
+    height: calc(215px + (100vw - 375px) / (1170 - 375) * (485 - 215));
+  }
+}

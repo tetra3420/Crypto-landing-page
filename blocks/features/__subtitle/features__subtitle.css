@@ -1,0 +1,18 @@
+.features__subtitle{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 14px;
+  padding-top: 45px;
+  padding-bottom: 0;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 1169px) {
+  .features__subtitle{
+    font-size: calc(18px + (100vw - 375px) / (1170 - 375) * (24 - 18));
+    padding-top: calc(30px + (100vw - 375px) / (1170 - 375) * (45 - 30));
+
+  }
+}

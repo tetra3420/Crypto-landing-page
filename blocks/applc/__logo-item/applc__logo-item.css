@@ -1,0 +1,9 @@
+.applc__logo-item{
+  height: 55.2px;
+}
+
+  @media screen and (max-width: 1169px) {
+    .applc__logo-item{
+      height: calc(35px + (100vw - 375px) / (1170 - 375) * (55.2 - 35));
+    }
+}

@@ -1,0 +1,11 @@
+.news__container{
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+@media screen and (max-width: 1169px) {
+  .news__container{
+    padding-top: calc(36px + (100vw - 375px) / (1170 - 375) * (100 - 36));
+    padding-bottom: calc(35px + (100vw - 375px) / (1170 - 375) * (110 - 35));
+  }
+}

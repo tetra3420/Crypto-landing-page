@@ -1,0 +1,24 @@
+.applc__title{
+  grid-area: applc__title;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-top: 79px;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 1169px) {
+  .applc__title{
+    font-size: calc(20px + (100vw - 375px) / (1170 - 375) * (32 - 20));
+    line-height: calc(30px + (100vw - 375px) / (1170 - 375) * (48 - 30));
+    margin-top: calc(50px + (100vw - 375px) / (1170 - 375) * (79 - 50));
+    margin-bottom: calc(10px + (100vw - 375px) / (1170 - 375) * (14 - 10));
+  }
+}
+
+@media screen and (max-width: 767px){
+  .applc__title{
+  text-align: center;
+}
+}
