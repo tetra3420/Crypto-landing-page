@@ -4,7 +4,7 @@
   align-items: flex-start;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
   .features__element{
     align-items: center;
   }

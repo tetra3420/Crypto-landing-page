@@ -9,7 +9,11 @@
   "news__image news__image news__image"
   "news__subtitle news__subtitle news__subtitle"
   "news__text news__text news__text"
-  "news__capture news__capture news__capture";
-  width: 100%;
-  height: 100%;
+  "news__block-capture news__block-capture news__block-capture";
+}
+
+@media screen and (max-width: 1169px) {
+  .news__item{
+    max-width: calc(343px + (100vw - 375px) / (1170 - 375) * (368 - 343));
+  }
 }

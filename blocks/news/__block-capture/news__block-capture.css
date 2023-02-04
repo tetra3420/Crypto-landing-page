@@ -1,0 +1,8 @@
+.news__block-capture{
+  grid-area: news__block-capture;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 330px;
+  justify-self: center;
+}

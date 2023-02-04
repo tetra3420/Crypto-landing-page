@@ -59,5 +59,6 @@
 @import url("../blocks/news/__image/news__image.css");
 @import url("../blocks/news/__subtitle/news__subtitle.css");
 @import url("../blocks/news/__text/news__text.css");
+@import url("../blocks/news/__block-capture/news__block-capture.css");
 @import url("../blocks/news/__capture/news__capture.css");
 @import url("../blocks/footer/footer.css");
