@@ -1,0 +1,8 @@
+.footer__social{
+  list-style-type: none;
+  width: 178px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}

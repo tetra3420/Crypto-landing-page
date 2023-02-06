@@ -5,4 +5,11 @@
   width: 100%;
   max-width: 330px;
   justify-self: center;
+  color: #616161;
+  margin: 28.5px 0 25px 0;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.03em;
 }

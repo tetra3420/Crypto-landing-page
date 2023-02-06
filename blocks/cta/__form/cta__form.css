@@ -1,0 +1,17 @@
+.cta__form{
+  margin: 50px 0 110px 0;
+  max-width: 578px;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 37px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1169px) {
+  .cta__form{
+    margin-top: calc(30px + (100vw - 375px) / (1170 - 375) * (50 - 30));
+    margin-bottom: calc(55.4px + (100vw - 375px) / (1170 - 375) * (110 - 55.4));
+  }
+}

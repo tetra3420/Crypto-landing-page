@@ -1,0 +1,11 @@
+.cta__image{
+  position: absolute;
+  left: -259px;
+  top: 44px;
+}
+
+@media screen and (max-width: 825px) {
+  .cta__image{
+    display: none;
+  }
+}

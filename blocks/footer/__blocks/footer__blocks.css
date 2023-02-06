@@ -1,0 +1,9 @@
+.footer__blocks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px 0 0;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}

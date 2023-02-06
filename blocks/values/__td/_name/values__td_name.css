@@ -9,4 +9,12 @@ display: flex;
 align-items: center;
 justify-content: left;
 flex-wrap: nowrap;
+max-width: 275px;
+width: 100%;
+}
+
+@media screen and (max-width: 291px){
+  .values__td_name{
+    flex-wrap: wrap
+  }
 }

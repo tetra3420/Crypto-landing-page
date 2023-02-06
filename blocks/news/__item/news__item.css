@@ -1,6 +1,7 @@
 .news__item{
   background-color: #fff;
   border-radius: 10px;
+  overflow: hidden;
   max-width: 368px;
   display: grid;
   grid-template-columns: repeat(3 , 1fr);

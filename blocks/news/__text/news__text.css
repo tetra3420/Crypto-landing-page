@@ -6,9 +6,10 @@
   line-height: 18px;
   letter-spacing: 0.03em;
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
   margin: 0;
   max-width: 330px;
+  height: 54px;
   justify-self: center;
+  color: #4F4F4F;
 }

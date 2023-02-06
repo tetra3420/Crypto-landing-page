@@ -1,0 +1,8 @@
+.footer__lastbox{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  border-top: 1px solid #BCBCBC;
+  min-height: 100px;
+}

@@ -1,0 +1,23 @@
+.cta__email{
+  background-color: transparent;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  margin-left: 4%;
+  padding: 0;
+  max-width: 204px;
+  width: 100%;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+@media screen and (max-width: 1169px) {
+  .cta__email{
+    font-size: calc(12px + (100vw - 375px) / (1170 - 375) * (15 - 12));
+    line-height: calc(14.5px + (100vw - 375px) / (1170 - 375) * (18 - 14.5));
+  }
+}

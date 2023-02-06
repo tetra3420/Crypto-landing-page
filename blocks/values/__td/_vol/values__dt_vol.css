@@ -7,5 +7,7 @@
 @media screen and (max-width: 600px){
   .values__dt_vol{
     padding: 0;
+    max-width: 275px;
+    width: 100%;
   }
 }

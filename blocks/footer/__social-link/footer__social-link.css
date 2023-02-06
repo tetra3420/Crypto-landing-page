@@ -1,0 +1,18 @@
+.footer__social-link{
+  border: 1px solid #fff;
+  background-image: url("../../../image/facebook.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  opacity: 60%;
+}
+
+.footer__social-link:hover{
+  opacity: 1;
+  border: 1px solid #eb5757;
+  background-color: #EB5757;
+
+}

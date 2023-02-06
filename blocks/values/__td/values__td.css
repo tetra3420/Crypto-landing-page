@@ -20,3 +20,9 @@
     height: calc(64.7px + (100vw - 375px) / (1170 - 375) * (85 - 64.7));
   }
 }
+
+@media screen and (max-width: 291px){
+  .values__td{
+    font-size: 10px;
+  }
+}

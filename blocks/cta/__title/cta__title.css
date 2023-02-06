@@ -1,0 +1,18 @@
+.cta__title{
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  margin: 92px 0 14px 0;
+}
+
+@media screen and (max-width: 1169px) {
+  .cta__title{
+    margin-bottom: calc(10px + (100vw - 375px) / (1170 - 375) * (14 - 10));
+    margin-top: calc(50px + (100vw - 375px) / (1170 - 375) * (92 - 50));
+    font-size:  calc(24px + (100vw - 375px) / (1170 - 375) * (50 - 24));
+    line-height:  calc(24px + (100vw - 375px) / (1170 - 375) * (50 - 24));
+  }
+}
+

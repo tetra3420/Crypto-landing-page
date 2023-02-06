@@ -1,0 +1,29 @@
+.cta__btn{
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #eb5757;
+  color: #fff;
+  border-radius: 31px;
+  border: none;
+  max-width: 139px;
+  width: 100%;
+  height: 62px;
+  transition: opacity 0.1s;
+  margin: 6px 5px 6px 0;
+}
+
+.cta__btn:hover{
+  opacity: 80%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1169px) {
+  .cta__btn{
+    margin: 4px;
+    font-size: calc(14px + (100vw - 375px) / (1170 - 375) * (17 - 14));
+    line-height: calc(14px + (100vw - 375px) / (1170 - 375) * (17 - 14));
+    height: calc(40px + (100vw - 375px) / (1170 - 375) * (62 - 40));
+  }
+}

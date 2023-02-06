@@ -1,0 +1,15 @@
+.footer__links_title{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  opacity: 1;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+@media screen and (max-width: 767px){
+  .footer__links_title{
+    padding-bottom: 0;
+  }
+}
