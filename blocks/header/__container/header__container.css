@@ -1,15 +1,13 @@
 .header__container{
   display: grid;
   grid-template-columns: min-content 1fr min-content;
-  grid-template-rows: min-content min-content min-content min-content 23%;
-  max-height: 100%;
+  grid-template-rows: min-content min-content min-content min-content;
+  height: 100%;
   grid-template-areas:
    "header__logo header__navigation  header__btrade"
    "header__title  header__title ."
    "header__subtitle  header__subtitle ."
-   "header__btget header__btget ."
-   ". header__scroll . ";
-  min-height: 700px;
+   "header__btget header__btget .";
   padding-top: 25px;
   position: relative;
 }
@@ -25,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 570px){
   .header__container{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:

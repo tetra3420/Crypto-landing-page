@@ -1,6 +1,5 @@
 .header{
   align-self: center;
-  /* background-image: url('../../image/Header@2x.png'); */
   background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
   background-position: bottom;
   background-size: cover;
@@ -8,10 +7,25 @@
   flex-direction: column;
   width: 100%;
   overflow: hidden;
+  position: relative;
+  height: 700px;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 1169px) {
+  .header{
+    height: calc(315px + (100vw - 375px) / (1170 - 375) * (700 - 315));
+  }
+}
+
+@media screen and (max-width: 570px){
  .header{
   background: none;
  }
+}
+
+@media screen and (max-width: 375px) {
+  .header{
+    height: 100%;
+    min-height: 315px;
+  }
 }

@@ -17,7 +17,7 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 570px){
   .header__burger{
     display: block;
   }

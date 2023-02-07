@@ -2,7 +2,20 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  flex-wrap: wrap-reverse;
   border-top: 1px solid #BCBCBC;
-  min-height: 100px;
+  height: 120px;
+}
+
+@media screen and (max-width: 1169px) {
+  .footer__lastbox{
+    height: calc(136px + (100vw - 375px) / (1170 - 375) * (120 - 136));
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .footer__lastbox{
+    flex-direction: column-reverse;
+    justify-content: center;
+    row-gap: 26px;
+  }
 }
