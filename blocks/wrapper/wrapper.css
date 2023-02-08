@@ -5,6 +5,7 @@
   box-sizing: border-box;
   background-color: #1B004E;
   color: #fff;
+  min-width: 295px;
   justify-items: center
 }
 
