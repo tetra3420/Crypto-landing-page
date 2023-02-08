@@ -5,7 +5,8 @@
   box-sizing: border-box;
   background-color: #1B004E;
   color: #fff;
-  min-width: 295px;
+  min-width: 195px;
+  overflow: hidden;
   justify-items: center
 }
 
