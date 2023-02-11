@@ -1,6 +1,6 @@
 #  Demonstration Crypto-landing page
 
-**Technology stack*
+**Technology stack**
 
 - Adaptive layout
 - Grid layout
